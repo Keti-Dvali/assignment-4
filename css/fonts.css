@@ -1,0 +1,37 @@
+@font-face {  
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: 'FiraGo';
+    src: url(../fonts/FiraGO-Bold.ttf);
+}
+@font-face {
+    font-family: 'FiraGo Regular' ;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: 'Andada Pro';
+    src: url(../fonts/AndadaPro-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Andada Pro Italic';
+    src: url(../fonts/AndadaPro-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'malayalam mn';
+    src: url(../fonts/malayalam-mn.ttf);
+}

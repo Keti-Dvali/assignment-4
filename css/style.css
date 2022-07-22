@@ -1,10 +1,8 @@
 *{
-    padding: 0;
     margin: 0;
-    text-decoration: none;
-    /* list-style: none; */
+    padding: 0;
     box-sizing: border-box;
-} 
+}
 body{
     width: 1440px;
     height: 1024px;
@@ -19,31 +17,13 @@ a{
     text-decoration: none;
     color: #000000;
 }
-
-.container {
-    max-width: 1184px;
-    width:90%;
-    margin: 0 auto;
-}
-
-.logo-wrapper, nav, .avatar-wrapper, .home, .contact, .about, .blog {
-    display: inline-block;
-}
-.logo-wrapper{
-    margin-right: 270px;
-    font-family: 'Malayalam MN';
-
-}
-.home, .about, .blog{
-    margin-right: 50px;
-}
-.contact{
-    margin-right: 367px;
-}
-
-@font-face {
+@font-face {  
     font-family: 'Poppins';
     src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url(../fonts/Poppins-Italic.ttf);
 }
 @font-face {
     font-family: 'FiraGo';
@@ -70,10 +50,34 @@ a{
     font-family: 'Open Sans';
     src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+    font-family: 'malayalam mn';
+    src: url(../fonts/malayalam-mn.ttf);
+}
+.container {
+    max-width: 1184px;
+    width:90%;
+    margin: 0 auto;
+}
+.logo-wrapper, nav, .avatar-wrapper, .home, .contact, .about, .blog {
+    display: inline-block;
+}
+.logo-wrapper{
+    margin-right: 270px;
+    font-family: 'malayalam mn';
+}
+.home, .about, .blog{
+    margin-right: 50px;
+    font-family: 'Poppins';
+}
+.contact{
+    margin-right: 367px;
+    font-family: 'Poppins';
+}
 h2{
     margin-top: 72px;
     margin-left: 520px;
-    font-family: 'FiraGo';
+    font-family: 'FiraGo'
     font-weight: 500;
     font-size: 24px;
 }
@@ -235,11 +239,12 @@ img{
     font-size: 25px;
     line-height: 165%;
     text-transform: capitalize;
+    float: left;
 }
 .T-shirt{
     margin-left: 59px;
-    margin-bottom: 237px;
-    display: inline-block;
+    margin-top: 185px;
+    float: right;
 }
 .company-address{
     Width: 327px;
@@ -249,4 +254,189 @@ img{
     font-weight: 400;
     font-size: 25px;
     text-transform: capitalize;
+    float: left;
 }
+.blog-title{
+    margin-left: 94px;
+    margin-top: 47px;
+    font-family: 'FiraGo Regular';
+    font-weight: 400;
+    font-size: 19px;
+    float: left;
+}
+#form{
+    margin-top: 42px;
+    margin-right: 98px;
+    float: right;
+    font-family: 'FiraGo Regular';
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.85);
+}
+ .search, .search-icon{    
+    display: inline-block;
+}
+.search{
+    padding-bottom: 18px;
+    padding-right: 159px;
+}
+.search-icon{
+    width: 26px;
+    height: 26px;
+    padding-top: 13.25px;
+}
+.fashion, .beauty, .travel, .art{
+    display: inline-block; 
+    font-family: 'FiraGo';
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.fashion{
+    margin-top: 169px;
+}
+.beauty, .travel, .art{
+    margin-left: 65px;
+}
+.container-1{
+    width: 308px;
+    height: 228px;
+    margin: 68px 17px 0px 98px;
+    float: left;
+}
+.container-2{
+    width: 918px;
+    height: 228px;
+    margin-top:68px;
+    margin-right: 98px;
+    background-color: #E5EBE5;
+    float: right;
+}
+ .title-summer{
+    padding-top: 38px;
+    padding-bottom: 32px;
+    font-family: 'FiraGo Regular';
+    font-size: 18px;
+}
+.text-summer{
+    color: #474747;
+    font-family: 'FiraGo Regular';
+    font-size: 14px;    
+}
+.title-summer, .text-summer{
+    padding-left: 36px;
+} 
+.more-1{
+    float: right;
+    padding: 11px 27px 15px 28px;
+    margin-top: 14px;
+    margin-right: 98px;
+    font-family: 'FiraGO Regular';
+    font-size: 12px;
+    text-decoration-line: underline;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.container-3{
+    width: 308px;
+    height: 228px;
+    margin: 126px 17px 0px 98px;
+    float: left;
+}
+.container-4{
+    width: 918px;
+    height: 228px;
+    margin-top:68px;
+    margin-right: 98px;
+    background-color: #E5EBE5;
+    float: right;
+}
+ .title-KOMONO{
+    padding-top: 38px;
+    padding-bottom: 32px;
+    font-family: 'FiraGo';
+    font-size: 18px;;
+}
+.text-KOMONO{
+    color: #474747;
+    font-family: 'FiraGo Regular';
+    font-size: 14px; 
+}
+.title-KOMONO, .text-KOMONO{
+    padding-left: 36px;
+} 
+.more-2{
+    padding: 11px 27px 15px 28px;
+    margin-top: 14px;
+    margin-right: 98px;
+    font-family: 'FiraGO Regular';
+    font-size: 12px;
+    text-decoration-line: underline;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    float: right;
+}
+.container-5{
+    margin-top: 169px;
+    margin-left: 206px;
+    float: left;
+}
+.container-6{
+    padding-top: 42px;
+    margin-left: 68px;
+    float: right;
+}
+.title-user{
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+.profession{
+    padding-top: 14px;
+    font-family: 'Poppins Italic';
+    color: #546CCC;
+}
+.user-about{
+    margin-top: 96px;
+    margin-left: 11px;
+    border-bottom: 1px solid rgb(125 0 0);
+    padding-bottom: 16px;
+    padding-left: 32px;
+    width: 135px;
+    font-family:'Poppins';
+    font-size: 24px;
+}
+.user-list{
+    list-style: none;
+    margin-top: 58px;
+    margin-left: 16px;
+    font-family:'Poppins';
+    font-size: 20px; 
+    float: left;
+}
+.user-mail, .user-address{
+    margin-bottom: 30px;
+}
+.user-list-2{
+    list-style: none;
+    margin-top: 58px;
+    margin-left: 163px;
+    float: right;
+}
+.user-mail-2, .user-address-2{
+    margin-bottom: 40px;
+}
+.user-mail-2, .user-address-2, .user-gender-2{
+    font-family:'Poppins-Medium';
+    font-weight: 500;
+    font-size: 20px;
+}
+.user-button{
+    float: right;
+    padding: 16px 32px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #87AC87;
+    border: #FFFFFF;
+    border-radius: 10px; 
+}
+
